@@ -57,13 +57,13 @@ if (app.get('env') === 'development') {
     });
 }
 
-app.use(cors(
-    {
-        origin: ["lazyhome-deploy.vercel.app"],
-        methods: ["POST", "GET"],
-        credentails: true
-    }
-));
+// app.use(cors(
+//     {
+//         origin: ["lazyhome-deploy.vercel.app"],
+//         methods: ["POST", "GET"],
+//         credentails: true
+//     }
+// ));
 
 // production error handler
 // no stacktraces leaked to user
